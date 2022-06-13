@@ -1,0 +1,25 @@
+h1 {
+    font-size: calc(30px + 0.5vw);
+    font-weight: bold;
+    color: #6ca7e2;
+    padding: 12px;
+    font-family: main-sans, sans-serif;
+    border-bottom: 2px solid #6ca7e2;
+}
+
+h2 {
+    font-size: calc(20px + 0.5vw);
+    font-weight: bold;
+    color: #6ca7e2;
+    padding: 0px;
+    margin: 0px;
+    font-family: main-sans, sans-serif;
+}
+
+.info-box {
+    margin: 2% 3.5%;
+}
+
+.info-box p {
+    padding: 5px 20px;
+}

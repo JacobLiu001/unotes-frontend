@@ -1,0 +1,112 @@
+html, body {
+    color: #fff;
+}
+
+h1 {
+    font-size: calc(30px + 0.5vw);
+    font-weight: bold;
+    color: #6ca7e2;
+    padding: 12px;
+    font-family: main-sans, sans-serif;
+    border-bottom: 2px solid #6ca7e2;
+}
+
+h2 {
+    font-size: calc(20px + 0.5vw);
+    font-weight: bold;
+    color: #6ca7e2;
+    padding: 0px;
+    margin: 0px;
+    font-family: main-sans, sans-serif;
+}
+
+.level-tabs-title {
+    margin: 15px;
+}
+
+p {
+    color: #fff;
+    padding: 5px 20px;
+    font-size: calc(14px + 0.3vw);
+    line-height: 1.2;
+}
+
+
+.subject-select {
+    margin: 10px 3%;
+    width: auto;
+    background-color: #2e2c55;
+}
+.subject-select-bar {
+    display: grid;
+    /* grid-auto-flow: column dense; */
+    background-color: #ffffff;
+    gap: 1px;
+}
+
+.subject-button {
+    color: #fff;
+    background-color: #55519c;
+    font-family: inherit;
+    font-size: calc(16px + 0.25vw);
+    border: 1px transparent;
+    line-height: 1.2;
+    padding: 8px 0px;
+    margin: 0px;
+}
+.subject-button:hover {
+    background-color: #7973df;
+}
+.active-subject-button {
+    background-color: #7973df;
+}
+
+.notes-versions {
+    padding: calc(15px + 0.5vw);
+    background-color: #494774;
+    font-size: calc(14px + 0.2vw);
+}
+
+.download-list {
+    margin: 0px;
+    list-style-type: none;
+    padding-left: calc(12px + 2vw);
+    font-size: calc(14px + 0.28vw);
+}
+
+.download-list li {
+    padding-left: 5px;
+    margin: 0px;
+    font-family: main-mono, Consolas, monospace;
+    font-size: calc(14px + 0.2vw);
+}
+
+.notes-version {
+    margin-bottom: 1em;
+}
+
+.notes-version-name {
+    font-size: calc(17px + 0.32vw);
+    font-weight: 600;
+    padding: 0px;
+}
+
+.authors-list {
+    font-family: main-mono, Consolas, monospace;
+    font-size: calc(14px + 0.28vw);
+    margin: 0px;
+    list-style-type: none;
+    padding-left: calc(12px + 2vw);
+    margin-bottom: 6px;
+}
+
+.authors-list li {
+    padding-left: 5px;
+    margin: 0px;
+    font-family: main-mono, Consolas, monospace;
+    font-size: calc(14px + 0.2vw);
+}
+
+.filesize {
+    font-size: inherit;
+}

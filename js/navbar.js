@@ -7,7 +7,7 @@ let navbarHTML = `<header id="navbar" class="navbar">
         <div class="dropdown-content">
             <a href="/about/">About UNotes</a>
             <a href="/about/team.html">Our Team</a>
-            <a href="/about/faq.html#FAQ">FAQ</a>
+            <a href="/about/faq.html">FAQ</a>
         </div>
     </li>
     <li><a href="/downloads/">Downloads</a></li>

@@ -1,5 +1,4 @@
 function changeSubjectButtonsLayout() {
-    console.log("Hello!")
     if (window.innerWidth < 800) {
         document.querySelectorAll(".subject-select-bar").forEach(p => {
             p.style.gridAutoFlow = "row dense";
@@ -75,8 +74,9 @@ function updateTab(level, subject) {
                 authorsList.appendChild(authorEntry);
             }
             let downloadOptions = document.createElement("p");
-            downloadOptions.innerHTML = `Download Options: `;
-            downloadOptions.innerHTML += `<span class="filesize">(File Size: ${formatFileSize(version["size"])})</span>`
+            downloadOptions.innerHTML = `Download: `;
+            downloadOptions.innerHTML += version["format"];
+            downloadOptions.innerHTML += ` <span class="filesize">(File Size: ${formatFileSize(version["size"])})</span>`
             versionDiv.appendChild(downloadOptions);
             let downloadList = document.createElement("ul");
             versionDiv.appendChild(downloadList);
@@ -135,4 +135,4 @@ function addLevelTabs(levels) {
     changeSubjectButtonsLayout();
 }
 
-getData(addLevelTabs, "/dynamic/levels?width=" + window.innerWidth);
+getData(addLevelTabs, "/dynamic/levels");

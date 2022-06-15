@@ -1,0 +1,6 @@
+authors:
+- {name: "陈星含"}
+- {name: "刘蕴之"}
+description: A collection of notable concepts and equations. Can be used as a textbook. Compiled 2022-05-29
+name: Lightweight Textbook
+format: PDF, compiled from LaTeX

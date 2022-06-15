@@ -3,6 +3,7 @@
     src: local(Linux Biolinum),
         local(LinBiolinum),
         url('/fonts/LinBiolinum_Rah.ttf');
+    font-display: swap;
 }
 
 html,

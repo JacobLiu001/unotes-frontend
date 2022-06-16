@@ -1,0 +1,18 @@
+ul.normal-list {
+    color: #fff;
+    list-style: none;
+    margin: 0px 0px;
+    font-size: calc(14px + 0.2vw);
+}
+
+ul.normal-list li {
+    margin: 5px 0px;
+    font-size: calc(14px + 0.2vw);
+}
+ul.normal-list li::before {
+    content: "\2014";
+    margin-right: 2px;
+    font-size: calc(14px + 0.2vw);
+    line-height: 1.0;
+}
+

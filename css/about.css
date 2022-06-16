@@ -13,11 +13,12 @@ h2 {
     color: #6ca7e2;
     padding: 0px;
     margin: 0px;
+    margin-bottom: 5px;
     font-family: main-sans, sans-serif;
 }
 
 .info-box {
-    margin: 2% 3.5%;
+    margin: 2% 3.5% 0%;
 }
 
 .info-box p {
